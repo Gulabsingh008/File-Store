@@ -86,7 +86,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton(text="💸", callback_data="about"),
                     InlineKeyboardButton(text="🎭", callback_data="about"),
                 ],[ InlineKeyboardButton( "ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", callback_data = "main" ),
-                    InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", callback_data = "")
+                    InlineKeyboardButton("Update Channel", callback_data = "https://t.me/+OiKmB79YlMJmNTJl")
                 ], [ InlineKeyboardButton("sᴇᴀʀᴄʜ ᴀɴʏ ᴍᴏᴠɪᴇ", url = "http://t.me/rezii_auto_filter_bot") ],
                 [
                     InlineKeyboardButton("ʜᴇʟᴘ", callback_data = "help"),
