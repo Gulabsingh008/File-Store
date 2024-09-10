@@ -56,7 +56,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {mention}\n\n<b><blockquote>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʀʏ ᴀɢᴀɪɴ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</blockquote></b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get(CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", '<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}\nSize ⚙️: {file_size}\n\n○Jᴏɪɴ :<a href="https://t.me/AF_Mhakal">Cʜᴀɴɴᴇʟ</a>\n○Mᴏᴠɪᴇ : <a href="https://t.me/AF_Mhakal">Gʀᴏᴜᴘ</a></b>')
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", '<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}\nSize ⚙️: {file_size}\n\n○Jᴏɪɴ :<a href="https://t.me/AF_Mhakal">Cʜᴀɴɴᴇʟ</a>\n○Mᴏᴠɪᴇ : <a href="https://t.me/AF_Mhakal">Gʀᴏᴜᴘ</a></b>')
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
